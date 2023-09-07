@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: rgba(230, 251, 136, 0.531)
+}
+
+nav {
+    background-color: powderblue;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: right;
+}
+
+footer {
+    background-color: powderblue;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+.two {
+    font-family: "Chrimson Text", sans-serif;
+    font-size: 20px;
+    color: darkblue;
+    padding: 0 0 5% 5%;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(0,0,255);
+}
+a:hover {
+    color: rgba(0, 255, 4, 0.589);
+}
+
+hr {
+    border-width: 5px 0;
+    border-color: lightcoral;
+}
+
+.joe {
+    border: 5px solid red;
+    border-radius: 5%;
+    width:300px;
+    position: absolute;
+    top: 310px;
+    right: 325px;
+}
+
+.car {
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.lang {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(246, 183, 139);
+}
+
+.lang:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.lead {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(246, 183, 139);
+}
+
+.lead:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.skills {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(246, 183, 139);
+}
+
+.skills:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(246, 183, 139);
+}
